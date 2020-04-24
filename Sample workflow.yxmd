@@ -3,11 +3,11 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="138" y="90" />
+        <Position x="54" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <NumRows value="3" />
+          <NumRows value="4" />
           <Fields>
             <Field name="Col1" />
             <Field name="Col2" />
@@ -25,6 +25,10 @@
               <c>3</c>
               <c>B</c>
             </r>
+            <r>
+              <c>4</c>
+              <c>C</c>
+            </r>
           </Data>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -37,7 +41,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="246" y="90" />
+        <Position x="162" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
